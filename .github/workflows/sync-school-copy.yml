@@ -23,7 +23,7 @@ jobs:
       - name: Check out school repository
         uses: actions/checkout@v4
         with:
-          repository: JotaeDev/Club-Connect-School
+          repository: JotaeDev/club-connect-app
           token: ${{ secrets.CLUB_CONNECT_SCHOOL_REPO_TOKEN }}
           path: destination
 
