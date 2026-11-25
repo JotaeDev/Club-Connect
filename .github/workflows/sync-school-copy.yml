@@ -4,7 +4,7 @@ name: Sync school copy
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 permissions:
@@ -25,6 +25,7 @@ jobs:
         with:
           repository: JotaeDev/club-connect-app
           token: ${{ secrets.CLUB_CONNECT_SCHOOL_REPO_TOKEN }}
+          ref: main
           path: destination
 
       - name: Copy website files
