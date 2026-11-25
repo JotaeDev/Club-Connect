@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: JotaeDev/club-connect-app
-          token: ${{ secrets.CLUB_CONNECT_SCHOOL_REPO_TOKEN }}
+          token: ${{ secrets.CLUB_CONNECT_SYNC_TOKEN }}
           ref: main
           path: destination
 
